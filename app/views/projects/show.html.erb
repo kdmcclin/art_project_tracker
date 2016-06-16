@@ -1,5 +1,5 @@
 <!-- <p id="notice"><%= notice %></p> -->
-<h2>Project sent into the void at <%= @project.created_at %></h2>
+<h2>Project sent into the void at <%= @project.created_at.strftime("%m/%d/%Y") %></h2>
 <img src="http://i.giphy.com/LIGcHtLH8N2BG.gif">
 <br>
 <%= link_to 'Back', projects_path %>
